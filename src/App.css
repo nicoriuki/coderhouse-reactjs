@@ -43,3 +43,17 @@ body {
 button {
       font-size: calc(10px + 2vmin);
 }
+.pacienteHead {
+      height: 26px;
+}
+.contmens {
+      background-color: white;
+      color: crimson;
+}
+.card {
+      text-align: center;
+}
+.imgPaciente {
+      width: 150px;
+      height: auto;
+}
