@@ -52,6 +52,14 @@ button {
 }
 .card {
       text-align: center;
+      height: 100%;
+}
+
+.card-text {
+      -webkit-line-clamp: 3;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
 }
 .imgPaciente {
       width: 150px;

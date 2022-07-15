@@ -22,7 +22,7 @@ function App() {
                               <ItemListContainer
                                     nombre="Pepito Perez"
                                     edad="41"
-                                    descripcion="Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde dolores voluptatibus nostrum vero itaque incidunt dolorem deserunt repudiandae eveniet cumque impedit, illum architecto ab placeat nobis ipsum tempora quia a?"
+                                    descripcion="Unde dolores voluptatibus nostrum vero itaque incidunt dolorem deserunt repudiandae eveniet cumque impedit, illum architecto ab placeat nobis ipsum tempora quia a?"
                                     imagen={paciente2}
                               />
                         </div>

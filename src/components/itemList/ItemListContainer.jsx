@@ -18,8 +18,10 @@ function ItemListContainer({ nombre, descripcion, imagen, edad }) {
                                     {"  "}
                                     <span>{edad} Años</span>
                               </h5>
-                              <p className="card-text">{descripcion}</p>
-                              <a href="#" className="btn btn-primary">
+                              <div>
+                                    <p className="card-text ">{descripcion}</p>
+                              </div>
+                              <a href="#" className="btn btn-primary mt-3">
                                     Historia Clinica
                               </a>
                         </div>

@@ -8,7 +8,7 @@ function CartWidget() {
                               className="pacienteHead"
                               alt=""
                         />
-                        4
+                        2
                   </span>
             </>
       );
