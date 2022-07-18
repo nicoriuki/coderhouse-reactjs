@@ -1,4 +1,6 @@
-import pacienteHead from "../../pacienteHead.png";
+import pacienteHead from "../../assets/pacienteHead.png";
+import data from "../../helper/datospaciente.json";
+
 function CartWidget() {
       return (
             <>
@@ -8,7 +10,7 @@ function CartWidget() {
                               className="pacienteHead"
                               alt=""
                         />
-                        2
+                        {data.pacientes.length}
                   </span>
             </>
       );

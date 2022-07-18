@@ -1,0 +1,46 @@
+{
+      "pacientes": [
+            {
+                  "id": 10,
+                  "name": "Pepito Perez",
+                  "edad": 43,
+                  "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus nostrum dolorum dolorem itaque enim tenetur voluptas recusandae? Asperiores quibusdam delectus vero! Error est quo explicabo nisi ratione rem rerum nam",
+                  "imagen": "../../src/assets/paciente2.png"
+            },
+            {
+                  "id": 20,
+                  "name": "Roberto Lopez",
+                  "edad": 22,
+                  "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus nostrum dolorum dolorem itaque enim tenetur voluptas recusandae? Asperiores quibusdam delectus vero! Error est quo explicabo nisi ratione rem rerum nam",
+                  "imagen": "../../src/assets/paciente2.png"
+            },
+            {
+                  "id": 30,
+                  "name": "Pepita Perez",
+                  "edad": 19,
+                  "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus nostrum dolorum dolorem itaque enim tenetur voluptas recusandae? Asperiores quibusdam delectus vero! Error est quo explicabo nisi ratione rem rerum nam",
+                  "imagen": "../../src/assets/paciente1.png"
+            },
+            {
+                  "id": 40,
+                  "name": "Nicolas Marquez",
+                  "edad": 42,
+                  "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus nostrum dolorum dolorem itaque enim tenetur voluptas recusandae? Asperiores quibusdam delectus vero! Error est quo explicabo nisi ratione rem rerum nam",
+                  "imagen": "../../src/assets/paciente2.png"
+            },
+            {
+                  "id": 50,
+                  "name": "Quien Soy",
+                  "edad": 73,
+                  "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus nostrum dolorum dolorem itaque enim tenetur voluptas recusandae? Asperiores quibusdam delectus vero! Error est quo explicabo nisi ratione rem rerum nam",
+                  "imagen": "../../src/assets/paciente2.png"
+            },
+            {
+                  "id": 60,
+                  "name": "Hermenegilda Perez",
+                  "edad": 35,
+                  "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus nostrum dolorum dolorem itaque enim tenetur voluptas recusandae? Asperiores quibusdam delectus vero! Error est quo explicabo nisi ratione rem rerum nam",
+                  "imagen": "../../src/assets/paciente1.png"
+            }
+      ]
+}
