@@ -1,25 +1,19 @@
 function ItemListContainer(props) {
       return (
             <>
-                  <div className="row mt-4 ms-4 justify-content-center ">
+                  <section className="pacientes">
                         {props.data.pacientes.map((paciente) => (
-                              <div
-                                    key={paciente.id}
-                                    className="col-4 mb-2 mt-2"
-                              >
-                                    <div
-                                          className="card row  justify-content-center"
-                                          style={{ width: 300 }}
-                                    >
+                              <article key={paciente.id} className="paciente">
+                                    <div className="pCard">
                                           <div>
                                                 <img
-                                                      className="card-img-top imgPaciente"
+                                                      className="pCard__img"
                                                       src={paciente.imagen}
-                                                      alt="Card image cap"
+                                                      alt={paciente.name}
                                                 />
                                           </div>
-                                          <div className="card-body">
-                                                <h5 className="card-title">
+                                          <div className="pCard__body">
+                                                <h5 className="pCard__title">
                                                       {paciente.name}
                                                       {"  "}
                                                       <span>
@@ -27,23 +21,20 @@ function ItemListContainer(props) {
                                                       </span>
                                                 </h5>
                                                 <div>
-                                                      <p className="card-text ">
+                                                      <p className="pCard__text ">
                                                             {
                                                                   paciente.descripcion
                                                             }
                                                       </p>
                                                 </div>
-                                                <a
-                                                      href="#"
-                                                      className="btn btn-primary mt-3"
-                                                >
+                                                <button className="pCard__btn">
                                                       Historia Clinica
-                                                </a>
+                                                </button>
                                           </div>
                                     </div>
-                              </div>
+                              </article>
                         ))}
-                  </div>
+                  </section>
             </>
       );
 }

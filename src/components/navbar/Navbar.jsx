@@ -2,49 +2,31 @@ import CartWidget from "./CartWidget";
 
 const navBar = () => {
       return (
-            <nav className="navbar navbar-expand-lg bg-dark">
-                  <div className="container-fluid ">
-                        <a className="navbar-brand text-bg-dark p-3" href="#">
-                              Consultorio
-                        </a>
-                        <div className="d-flex justify-content-end">
-                              <div
-                                    className="collapse navbar-collapse "
-                                    id="navbarNav"
-                              >
-                                    <ul className="navbar-nav d-flex">
-                                          <li className="nav-item">
-                                                <a
-                                                      className="nav-link text-bg-dark p-3"
-                                                      aria-current="page"
-                                                      href="#"
-                                                >
-                                                      Inicio
-                                                </a>
-                                          </li>
-                                          <li className="nav-item">
-                                                <a
-                                                      className="nav-link text-bg-dark p-3"
-                                                      href="#"
-                                                >
-                                                      <p>
-                                                            Pacientes
-                                                            {"      "}
-                                                            <CartWidget />
-                                                      </p>
-                                                </a>
-                                          </li>
-                                          <li className="nav-item">
-                                                <a
-                                                      className="nav-link text-bg-dark p-3"
-                                                      href="#"
-                                                >
-                                                      Agenda
-                                                </a>
-                                          </li>
-                                    </ul>
-                              </div>
-                        </div>
+            <nav className="nav">
+                  <ul className="nav__links">
+                        <li className="nav__item">
+                              <a className="nav__link " href="">
+                                    Inicio
+                              </a>
+                        </li>
+                        <li className="nav__item">
+                              <a className="nav__link" href="">
+                                    Pacientes
+                              </a>
+                        </li>
+                        <li className="nav__item">
+                              <a className="nav__link" href="">
+                                    Agenda
+                              </a>
+                        </li>
+                        <li className="nav__item">
+                              <a className="nav__link" href="">
+                                    Consultas
+                              </a>
+                        </li>
+                  </ul>
+                  <div className="icon">
+                        <CartWidget />
                   </div>
             </nav>
       );

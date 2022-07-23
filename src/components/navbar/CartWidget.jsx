@@ -1,17 +1,14 @@
-import pacienteHead from "../../assets/pacienteHead.png";
-import data from "../../helper/datospaciente.json";
+import agenda from "../../assets/agenda.png";
 
 function CartWidget() {
       return (
             <>
-                  <span className="badge contmens badge-counter">
-                        <img
-                              src={pacienteHead}
-                              className="pacienteHead"
-                              alt=""
-                        />
-                        {data.pacientes.length}
-                  </span>
+                  <img
+                        src={agenda}
+                        className="paciente__logo"
+                        alt="Logo paciente"
+                  />
+                  <span className="badge rounded-circle">6</span>
             </>
       );
 }

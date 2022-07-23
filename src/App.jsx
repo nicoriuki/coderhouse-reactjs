@@ -1,15 +1,17 @@
 import { useState } from "react";
-import "./App.css";
+import "./main.css";
 import Navbar from "./components/navbar/Navbar";
-import ItemListContainer from "./components/itemList/ItemListContainer";
-import data from "./helper/datospaciente.json";
+import MainHtml from "./components/main/MainHtml";
+import Footer from "./components/footer/Footer";
 
 function App() {
       return (
             <>
-                  <Navbar />
-
-                  <ItemListContainer data={data} />
+                  <div className="GridArea">
+                        <Navbar />
+                        <MainHtml />
+                        <Footer />
+                  </div>
             </>
       );
 }
