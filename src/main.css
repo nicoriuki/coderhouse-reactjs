@@ -191,3 +191,34 @@
   padding: 5px;
   border-radius: 5px;
   cursor: pointer; }
+
+.cargandoContainer {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px; }
+
+.cargando {
+  position: relative;
+  width: 100px;
+  height: 100px; }
+
+.cargando:before,
+.cargando:after {
+  content: "";
+  border-radius: 50%;
+  position: absolute;
+  inset: 0;
+  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.3) inset; }
+
+.cargando:after {
+  box-shadow: 0 2px 0 #ff3d00 inset;
+  animation: rotate 2s linear infinite; }
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0); }
+  100% {
+    transform: rotate(360deg); } }
