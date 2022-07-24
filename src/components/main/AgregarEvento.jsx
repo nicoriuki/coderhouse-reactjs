@@ -11,8 +11,7 @@ function AgregarEvento({ stockEventos, initial }) {
       function onAdd() {
             setStock(stock - eventos);
 
-            alert(eventos);
-       
+            alert(`Se agregaron ${eventos} eventos`);
       }
 
       function sumar() {
