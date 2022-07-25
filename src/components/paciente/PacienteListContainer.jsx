@@ -1,6 +1,6 @@
 import Paciente from "./Paciente";
 
-function ItemListContainer({ data }) {
+function PacienteListContainer({ data }) {
       return (
             <>
                   <section className="pacientes">
@@ -12,4 +12,4 @@ function ItemListContainer({ data }) {
       );
 }
 
-export default ItemListContainer;
+export default PacienteListContainer;

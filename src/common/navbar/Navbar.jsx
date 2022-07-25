@@ -1,4 +1,4 @@
-import CartWidget from "./CartWidget";
+import EventosDia from "./EventosDia";
 
 const navBar = () => {
       return (
@@ -26,7 +26,7 @@ const navBar = () => {
                         </li>
                   </ul>
                   <div className="icon">
-                        <CartWidget />
+                        <EventosDia />
                   </div>
             </nav>
       );

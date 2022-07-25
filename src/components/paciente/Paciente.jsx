@@ -1,6 +1,7 @@
-import React from "react";
-
-export default function Paciente({ paciente }) {
+import AgregarEvento from "./AgregarEvento";
+function Paciente({ paciente }) {
+      const stockEventos = 12,
+            initial = 1;
       return (
             <article className="paciente">
                   <div className="pCard">
@@ -26,7 +27,14 @@ export default function Paciente({ paciente }) {
                                     Historia Clinica
                               </button>
                         </div>
+                        <div>
+                              <AgregarEvento
+                                    stockEventos={stockEventos}
+                                    initial={initial}
+                              />
+                        </div>
                   </div>
             </article>
       );
 }
+export default Paciente;

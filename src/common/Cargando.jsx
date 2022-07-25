@@ -1,6 +1,4 @@
-import React from "react";
-
-export default function Cargando() {
+function Cargando() {
       return (
             <>
                   <div className="cargandoContainer">
@@ -10,3 +8,4 @@ export default function Cargando() {
             </>
       );
 }
+export default Cargando;

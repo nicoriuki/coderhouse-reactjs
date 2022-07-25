@@ -1,6 +1,6 @@
 import agenda from "../../assets/agenda.png";
 
-function CartWidget() {
+function EventosDia() {
       return (
             <>
                   <img
@@ -13,4 +13,4 @@ function CartWidget() {
       );
 }
 
-export default CartWidget;
+export default EventosDia;

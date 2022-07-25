@@ -1,14 +1,11 @@
-import React, { useState, useEffect } from "react";
-import ItemListContainer from "./ItemListContainer";
-import AgregarEvento from "./AgregarEvento";
-import data from "./../../helper/datospaciente.json";
-import Cargando from "./Cargando";
-const stockEventos = 12,
-      initial = 1;
+import { useState, useEffect } from "react";
+import PacienteListContainer from "../components/paciente/PacienteListContainer";
+import data from "../helper/datospaciente.json";
+import Cargando from "../common/Cargando";
 
-export default function MainHtml() {
+function Pacientes() {
       const [pacientes, setPacientes] = useState([]);
-      const [div, setDiv] = useState();
+
       useEffect(() => {
             let misPacientes = new Promise((resolve) => {
                   setTimeout(() => {
@@ -28,22 +25,18 @@ export default function MainHtml() {
             pacientesObtenidos.then(setPacientes);
       }, []);
 
-      console.log(pacientes);
       return (
             <>
                   <main className="main">
-                        <AgregarEvento
-                              stockEventos={stockEventos}
-                              initial={initial}
-                        />
                         <hr />
 
                         {pacientes.length === 0 ? (
                               <Cargando />
                         ) : (
-                              <ItemListContainer data={pacientes} />
+                              <PacienteListContainer data={pacientes} />
                         )}
                   </main>
             </>
       );
 }
+export default Pacientes;

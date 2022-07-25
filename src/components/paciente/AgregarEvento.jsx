@@ -24,7 +24,7 @@ function AgregarEvento({ stockEventos, initial }) {
       return (
             <>
                   <div className="contadorContainer">
-                        <h2>Agregar Eventos ,Cantidad Disponible {stock}</h2>
+                        <h2>Citas Disponible {stock}</h2>
                         <div className="contador">
                               <button
                                     disabled={eventos === 0}
@@ -48,7 +48,7 @@ function AgregarEvento({ stockEventos, initial }) {
                                     onClick={onAdd}
                                     className="btnAgregar"
                               >
-                                    AGREGAR EVENTOS
+                                    AGREGAR CITA
                               </button>
                         </div>
                   </div>
